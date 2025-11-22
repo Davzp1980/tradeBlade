@@ -1,0 +1,132 @@
+.container {
+  width: 375px;
+  background-color: #030718;
+  padding: 40px 42px 25px 16px;
+}
+
+.FirstFooterDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 57px;
+}
+
+.quickNav {
+  max-width: 107px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.4;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.links {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.punktirDiv {
+  background-image: url('/img/punktirFooter.png');
+  background-position: center;
+  height: 1px;
+  width: 375px;
+  margin-left: -16px;
+  margin-bottom: 20px;
+}
+
+.SecondFooterDiv {
+}
+
+.logoDiv {
+  position: relative;
+  width: 165px;
+  height: 81px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 81px;
+}
+
+.logoSvg {
+  width: 96px;
+  height: 97px;
+}
+
+.logoTextSvg {
+  position: absolute;
+  top: 24px;
+  left: 86px;
+  width: 100px;
+  height: 42px;
+}
+
+.footerP {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fff;
+  opacity: 0.5;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    height: 353px;
+    padding: 44px 82px 45px 80px;
+    position: relative;
+  }
+
+  .mainFooterDiv {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .FirstFooterDiv {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 224px;
+    margin-bottom: 0;
+  }
+
+  .quickNav {
+    max-width: 150px;
+  }
+
+  .linksContainer {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .punktirDiv {
+    position: absolute;
+    right: 366px;
+    width: 1px;
+    height: 365px;
+    margin-top: -47px;
+  }
+
+  .SecondFooterDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 492px;
+    align-items: end;
+  }
+
+  .logoDiv {
+    margin-bottom: 0;
+  }
+}

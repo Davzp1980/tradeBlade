@@ -1,0 +1,115 @@
+.container {
+  position: relative;
+  width: 375px;
+  background-color: #030718;
+  padding: 48px 0 53px 16px;
+  position: relative;
+}
+
+.h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+.onlineDiv {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+
+.greenCircle {
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: #35ff9e;
+}
+
+.greenText {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: -0.04em;
+  color: #35ff9e;
+  opacity: 0.9;
+}
+
+.mySwiper {
+  margin-bottom: 52px;
+}
+
+.slide {
+  width: 299px;
+  height: 208px;
+}
+
+:global(.swiper-scrollbar) {
+  background: #434f70 !important;
+  height: 6px !important;
+  border-radius: 2px !important;
+  width: 311px !important;
+  opacity: 0.4 !important;
+  margin-left: 16px !important;
+}
+
+:global(.swiper-scrollbar-drag) {
+  background: #6073a1 !important;
+  border-radius: 56px !important;
+
+  width: 61px !important;
+  height: 6px !important;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    padding: 96px 0 118px 80px;
+  }
+
+  .h2 {
+    font-size: 44px;
+    line-height: 127%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+
+  .onlineDiv {
+    margin-bottom: 172px;
+  }
+
+  :global(.swiper-scrollbar) {
+    border-radius: 56px !important;
+    width: 955px !important;
+    opacity: 0.4 !important;
+    margin-left: 147px !important;
+    top: var(--swiper-scrollbar-top, 220px) !important;
+  }
+
+  :global(.swiper-scrollbar-drag) {
+    background: #6073a1 !important;
+    border-radius: 56px !important;
+
+    width: 189px !important;
+    height: 6px !important;
+  }
+
+  .whiteDiv {
+    position: absolute;
+    bottom: -1px;
+    left: -81px;
+    width: 640px;
+    height: 60px;
+    padding: 0;
+
+    background-image: url('/public/img/whiteDiv-PC.png');
+    background-repeat: no-repeat;
+  }
+}

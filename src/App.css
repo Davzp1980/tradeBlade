@@ -1,0 +1,10 @@
+.main-container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1440px) {
+  .main-container {
+    width: 1440px;
+  }
+}

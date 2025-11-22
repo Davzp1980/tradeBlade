@@ -1,0 +1,94 @@
+.container {
+  width: 375px;
+  background-color: #fff;
+  padding: 38px 26px 48px 16px;
+}
+
+.pMonth {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: -0.04em;
+  color: #000;
+  opacity: 0.5;
+  margin-bottom: 40px;
+}
+.tradeSpotDiv {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  margin-bottom: 32px;
+}
+
+.tradeDiv {
+}
+
+.spotDiv {
+}
+
+.pText {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  text-transform: uppercase;
+  color: #000;
+  opacity: 0.8;
+  margin-bottom: 4px;
+}
+
+.pText1 {
+  max-width: 107px;
+}
+
+.pNumber {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #6a54ff;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    padding: 56px 0 61px 80px;
+    display: flex;
+  }
+
+  .numberTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-right: 156px;
+  }
+
+  .h2Numbers {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 127%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #000;
+  }
+
+  .pMonth {
+    margin-bottom: 0;
+  }
+
+  .tradeSpotDiv {
+    display: flex;
+    align-items: center;
+    gap: 129px;
+    margin-bottom: 0;
+    margin-right: 67px;
+  }
+
+  .pText1 {
+    max-width: 180px;
+  }
+}

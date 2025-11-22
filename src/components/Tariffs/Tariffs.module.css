@@ -1,0 +1,285 @@
+.container {
+  width: 375px;
+  background-color: #030718;
+  padding: 56px 16px 44px 16px;
+}
+
+.H2Tariffs {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.btnDiv {
+  display: flex;
+  align-items: center;
+  width: 343px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #6a54ff;
+  padding: 0 4px;
+  margin-bottom: 24px;
+}
+
+.SpotBtn {
+  border: none;
+  border-radius: 4px;
+  width: 167px;
+  height: 44px;
+  background-color: #57e1ff;
+
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.futuresBtn {
+  border: none;
+  background-color: transparent;
+  width: 167px;
+  height: 44px;
+
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #57e1ff;
+  opacity: 0.8;
+}
+
+.standardDiv {
+  border: 1px solid #6a54ff;
+  border-radius: 8px;
+  width: 343px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.H2standard {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.04em;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.okSvg {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+
+.listDiv {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.listP {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #fff;
+}
+
+.punktirDiv {
+  background-image: url('/img/punktir.png');
+  height: 1px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.punktirDivEnd {
+  margin-bottom: 24px;
+}
+
+.tariffMonthDiv {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  margin-bottom: 24px;
+}
+
+.tariffPriceDiv {
+  display: flex;
+  gap: 4px;
+}
+
+.priceP {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 114%;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.discountP {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 111%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #35ff9e;
+}
+
+.numberMonthsBtn {
+  border: none;
+  border-radius: 4px;
+
+  width: 128px;
+  height: 36px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.numberMonthsP {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  text-align: right;
+  color: #fff;
+}
+
+.chevronSvg {
+  width: 24px;
+  height: 24px;
+}
+
+.tryBtn {
+  border: none;
+  border-radius: 3px;
+  width: 310px;
+  height: 52px;
+  box-shadow: 0 0 4px 0 #57e1ff;
+  background: #57e1ff;
+}
+
+.tryP {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #030718;
+}
+
+.freeTimeP {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  color: #030718;
+  opacity: 0.56;
+}
+
+.vipDiv {
+  border-radius: 8px;
+  width: 343px;
+  background-color: #6a54ff;
+  padding: 16px;
+}
+
+.h2Vip {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.04em;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.punktirDivEndVip {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    padding: 96px 297px;
+  }
+
+  .H2Tariffs {
+    font-size: 44px;
+    line-height: 127%;
+    margin-bottom: 40px;
+  }
+
+  .btnDiv {
+    width: 413px;
+  }
+
+  .SpotBtn {
+    width: 201px;
+  }
+
+  .futuresBtn {
+    width: 201px;
+  }
+
+  .wrapper {
+    display: flex;
+    gap: 20px;
+  }
+
+  .standardDiv {
+    width: 413px;
+    padding: 24px;
+    margin-bottom: 0;
+  }
+
+  .H2standard {
+    font-size: 32px;
+    line-height: 150%;
+    margin-bottom: 56px;
+  }
+
+  .punktirDiv {
+    background-position: center;
+    width: 410px;
+    margin-left: -22px;
+    margin-right: -22px;
+  }
+  .punktirDivEnd {
+    margin-bottom: 112px;
+  }
+
+  .tariffMonthDiv {
+    gap: 109px;
+  }
+
+  .tryBtn {
+    width: 365px;
+    height: 52px;
+  }
+
+  .vipDiv {
+    width: 413px;
+    padding: 24px;
+  }
+
+  .h2Vip {
+    font-size: 32px;
+    line-height: 150%;
+    margin-bottom: 56px;
+  }
+}

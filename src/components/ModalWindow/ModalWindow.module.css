@@ -1,0 +1,78 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #6a54ff;
+  padding: 84px 16px 16px 16px;
+  z-index: 999;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  margin-bottom: 113px;
+  opacity: 0.7;
+}
+
+.links {
+  text-transform: uppercase;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 125%;
+  color: #fff;
+}
+
+.btnDiv {
+  display: flex;
+  gap: 16px;
+}
+
+.btnReg {
+  border: none;
+  border-radius: 3px;
+  padding: 16px 24px;
+  width: 163px;
+  height: 52px;
+  background-color: #57e1ff;
+  box-shadow: 0 0 4px 0 #57e1ff;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #030718;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.btnEnter {
+  border: 2px solid #57e1ff;
+  border-radius: 3px;
+  padding: 16px 24px;
+  width: 163px;
+  height: 52px;
+  background-color: rgba(87, 225, 255, 0.2);
+  box-shadow: 0 0 4px 0 #57e1ff;
+
+  font-family: 'IBM Plex Sans', sans-serif 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #57e1ff;
+}
+
+.closeBtn {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 9px;
+  right: 8px;
+}
+
+.closeSvg {
+  width: 32px;
+  height: 32px;
+}
