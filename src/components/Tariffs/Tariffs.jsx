@@ -110,7 +110,7 @@ function Tariffs() {
             <p className={css.listP}>Личный кабинет со статистикой</p>
           </div>
 
-          <div className={css.punktirDiv}></div>
+          {!isDesktop && <div className={css.punktirDiv}></div>}
 
           {!isDesktop && (
             <div className={css.listDiv}>
